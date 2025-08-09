@@ -16,11 +16,16 @@ A **serverless API** that:
 ## 📂 Project Structure
 
 ├── src/
+
 │ └── worker.js # Cloudflare Worker source code
+
 ├── migrations/
+
 │ └── 0001_init.sql # D1 table schema
+
 ├── wrangler.toml # Cloudflare config
-└── README.md # This file
+
+└── README.md
 
 
 ---
@@ -37,9 +42,12 @@ Sign up here: https://platform.openai.com
 
 🚀 Setup Steps
 1. Clone & Install
-git clone <your-repo-url>
-cd <your-repo-folder>
+
+```bash
+git clone <https://github.com/amiiiirrrr/Stak_Test.git>
+cd <Stak_Test>
 npm install
+```
 
 2. Create D1 Database
 wrangler d1 create travel-db
