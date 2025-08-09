@@ -1,0 +1,11 @@
+name = "travel-itineraries-worker"
+main = "src/worker.js"
+compatibility_date = "2025-08-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "travel-db"
+database_id = "2ea118ad-9dcf-4496-b1e4-cce9f1326f7d"  # filled automatically after `wrangler d1 create`
+
+[vars]
+# You can also keep non-secret config here if needed
